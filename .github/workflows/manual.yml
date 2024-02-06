@@ -10,8 +10,6 @@ on:
 jobs:
   build:
     uses: tiredofit/github_actions/.github/workflows/default_amd64.yml@main
-    with: # Set the secret as an input
-      github_token: ${{ secrets.GITHUB_TOKEN }}
     #uses: tiredofit/github_actions/.github/workflows/default_amd64.yml@main
     #uses: tiredofit/github_actions/.github/workflows/default_amd64_armv7_arm64.yml@main
     #uses: tiredofit/github_actions/.github/workflows/default_amd64_arm64.yml@main
